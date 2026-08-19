@@ -1,0 +1,29 @@
+{
+  "name": "kaffe-blockchain",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node src/app.js",
+    "test": "NODE_ENV=test vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forselius98/Kaffe-Blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forselius98/Kaffe-Blockchain/issues"
+  },
+  "homepage": "https://github.com/forselius98/Kaffe-Blockchain#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.11"
+  }
+}
