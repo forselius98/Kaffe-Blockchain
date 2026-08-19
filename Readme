@@ -2,4 +2,8 @@
 
 ## TDD
 RÖDA-Testet: 
-GRÖNA-Testet: 
+1. node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json
+
+{"version":"4.1.11","results":[[":Tests/unit/intergration/api.test.ts",{"duration":0,"failed":true}],[":Tests/unit/Blockchain.test.ts",{"duration":0,"failed":true}],[":Tests/unit/Block.test.ts",{"duration":0,"failed":true}]]} 
+
+GRÖNA-Testet:  
