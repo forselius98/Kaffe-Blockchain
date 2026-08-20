@@ -6,7 +6,7 @@ export class Block {
   public timestamp: string;
   public transactions: Transaction[] | string;
   public previousHash: string;
-  public nonce: number;
+  public nonce: number; //pow
   public hash: string;
 
   constructor(index: number, timestamp: string, transactions: Transaction[] | string, previousHash: string = '') {
@@ -18,6 +18,7 @@ export class Block {
     this.hash = this.calculateHash();
   }
 
+  //POW- algorytm
   public calculateHash(): string {
     return crypto
       .createHash('sha256')
