@@ -14,4 +14,4 @@ describe('Block (Enhetstest)', () => {
     expect(hash).toBeTypeOf('string');
     expect(hash.length).toBe(64);
   });
-}):
+});
