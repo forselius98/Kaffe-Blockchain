@@ -7,7 +7,7 @@ app.use(express.json());
 
 const coffeeChain = new Blockchain();
 
-// 1. GET /blockchain
+//1. GET /blockchain
 app.get('/blockchain', (_req: Request, res: Response) => {
   res.status(200).json({
     length: coffeeChain.chain.length,
