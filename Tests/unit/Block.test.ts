@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import Block from '../src/Block';
+import { Block } from '../../src/Block.js';
 
 describe('Block (Enhetstest)', () => {
   it('ska beräkna en korrekt SHA-256 hash', () => {

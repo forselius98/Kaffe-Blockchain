@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { Transaction } from './types';
+import { Transaction } from './types.js';
 
 export class Block {
   public index: number;
